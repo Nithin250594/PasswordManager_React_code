@@ -1,0 +1,191 @@
+.add-new-password-bg {
+  background-color: #5763a5;
+
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.add-password-input-container {
+  background-color: #454f84;
+  width: 35vw;
+  border-radius: 10px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-password-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-bottom: 30px;
+}
+
+.password-image {
+  width: 30vw;
+}
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-box {
+  background-color: transparent;
+  height: 50px;
+  border-right: 1px #64748b solid;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.input-logo-image {
+  width: 20px;
+}
+
+.input-box {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 60px;
+  font-weight: 600;
+}
+
+.add-button {
+  width: 70px;
+  background-color: #0b69ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  align-self: flex-end;
+  cursor: pointer;
+  outline: none;
+}
+
+.your-password-bg {
+  background-color: #5763a5;
+  width: 100%;
+  border-radius: 10px;
+  height: 35%;
+  padding: 50px;
+}
+
+.your-password-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-password-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-password-title {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-right: 10px;
+}
+
+.passwords-count {
+  height: 16px;
+  width: 25px;
+  background-color: transparent;
+  border: 1px #c3caea solid;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #fff;
+}
+
+.search-input-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-right: 1px #64748b solid;
+  height: 28px;
+  padding: 10px;
+}
+
+.search-image {
+  width: 18px;
+}
+.search-input {
+  width: 240px;
+  height: 28px;
+  padding-left: 60px;
+  background-color: #fff;
+  border-width: 0px;
+}
+
+.separator {
+  border: 1px #7683cb solid;
+}
+
+.check-box-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.show-passwords-label {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.check-box-size {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.no-passwords-image {
+  width: 300px;
+}
+
+.no-passwords-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.passwords-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
